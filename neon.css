@@ -1,0 +1,48 @@
+body{
+margin:0;
+padding:0;
+display:flex;
+justify-content:center;
+min-height:100vh;
+background:#1a000a;
+font-family:consoles;
+}
+
+a{position:relative;
+display:inline-block;
+font-size:24px;
+padding: 15px 30px;
+text-transform:uppercase;
+text-decoration:none;
+overflow:hidden;
+letter-spacing:4px}
+
+a.violet:hover{color:#000000;   /*for violet color* */
+background:#9400D3;
+box-shadow: 0 0 20px #9400D3,0 0 60px #9400D3,0 0 90px #9400D3;}
+
+a.blue:hover{color:#000000; /*for blue color*/
+background:#0000FF;
+box-shadow: 0 0 20px #0000FF,0 0 60px #0000FF  ,0 0 90px #0000FF;}
+
+a.red:hover{color:#000000; /*for red color */
+background:#ff0000;
+box-shadow: 0 0 20px #ff0000,0 0 60px #ff0000 ,0 0 90px #ff0000;}
+
+a.yellow:hover{color:#000000;    /*for yellow color*/
+background:#ffff00;
+box-shadow: 0 0 20px #ffff00 ,0 0 60px #ffff00  ,0 0 90px #ffff00;}
+
+a.green:hover{color:#000000;   /*for green color*/
+background:#00ff00;
+box-shadow: 0 0 20px #00ff00,0 0 60px #00ff00  ,0 0 90px #00ff00;}
+
+a.indigo:hover{color:#000000;   /*for indigo color*/
+background:#4B0082 ;
+box-shadow: 0 0 20px #4B0082  ,0 0 60px #4B0082 ,0 0 90px  #4B0082;}
+
+a.orange:hover{color:#000000;   /*For orange color*/
+background: #FF7F00 ;
+box-shadow: 0 0 20px #FF7F00  ,0 0 60px #FF7F00,0 0 90px #FF7F00;}
+
+
